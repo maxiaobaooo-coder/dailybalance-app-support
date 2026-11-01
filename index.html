@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="今日生活（Daily Balance）支持网站：离线日常生活自查、隐私政策与技术支持。不是医疗器械，不用于诊断。">
+  <meta name="color-scheme" content="light">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>今日生活 Daily Balance | App Support</title>
+  <style>
+    :root { color-scheme: light; --bg: #fffaf6; --ink: #2b241e; --muted: #6d5e52; --line: #e6d9cc; --accent: #8c3f2a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 17px; line-height: 1.8; overflow-wrap: anywhere; }
+    .wrap { width: min(100% - 40px, 800px); margin-inline: auto; }
+    a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; border-radius: 2px; }
+    .skip { position: absolute; top: -100px; left: 20px; padding: 8px 16px; background: var(--bg); }
+    .skip:focus { top: 8px; }
+    header { border-top: 3px solid var(--accent); border-bottom: 1px solid var(--line); }
+    .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; column-gap: 24px; padding-block: 16px; }
+    .brand { color: var(--ink); font-size: 18px; font-weight: 650; text-decoration: none; }
+    nav { display: flex; flex-wrap: wrap; column-gap: 22px; }
+    nav a { display: inline-flex; align-items: center; min-height: 44px; font-size: 15px; }
+    nav [aria-current="page"] { color: var(--ink); font-weight: 650; }
+    main { padding-block: 56px 40px; }
+    h1 { margin: 0 0 12px; font-size: clamp(30px, 5vw, 42px); line-height: 1.35; letter-spacing: -.02em; }
+    h2 { margin: 0 0 12px; font-size: 23px; line-height: 1.5; }
+    p { margin: 0 0 16px; }
+    .label { margin-bottom: 12px; color: var(--muted); font-size: 15px; }
+    .en { color: var(--muted); }
+    section { margin-top: 36px; }
+    .page-links { border-top: 1px solid var(--line); }
+    .page-links a { display: block; padding-block: 18px; border-bottom: 1px solid var(--line); text-decoration: none; }
+    .page-links strong { display: block; font-size: 19px; text-decoration: underline; text-underline-offset: 4px; }
+    .page-links span { display: block; color: var(--muted); font-size: 16px; }
+    .notice { padding-left: 18px; border-left: 3px solid var(--accent); }
+    footer { padding-block: 24px 36px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+    @media (max-width: 540px) { main { padding-top: 36px; } .header-inner { display: block; } nav { column-gap: 20px; } section { margin-top: 28px; } }
+    @media print { .skip, header nav { display: none; } .wrap { width: 100%; } main { padding-top: 20px; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">跳至正文 / Skip to content</a>
+  <header>
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">今日生活</a>
+      <nav aria-label="主导航 / Main navigation">
+        <a href="index.html" aria-current="page">首页 / Home</a>
+        <a href="privacy.html" lang="en">Privacy Policy</a>
+        <a href="support.html" lang="en">Support</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap" tabindex="-1">
+    <p class="label" lang="en">App Support</p>
+    <h1>今日生活</h1>
+    <p>马孝宝（Xiaobao Ma）开发的离线日常生活自查 App。每天回答一份简短问卷，得到当日平衡分数和建议。</p>
+    <p class="en" lang="en">Daily Balance is an offline daily-life self-check app by Xiaobao Ma (马孝宝). You answer a short questionnaire each day and receive a daily balance score and suggestions.</p>
+
+    <section aria-label="隐私与支持 / Privacy and support" class="page-links">
+      <a href="privacy.html"><strong lang="en">Privacy Policy</strong><span>隐私政策 · 中文与 English</span></a>
+      <a href="support.html"><strong lang="en">Support</strong><span>使用说明、常见问题与开发者联系方式</span></a>
+    </section>
+
+    <section aria-labelledby="daily">
+      <h2 id="daily">日常自查 <span lang="en">/ Daily self-check</span></h2>
+      <p>安装之后即可离线使用。你可以查看并编辑「每日总结 / 今日回顾」。无需账户或登录，没有广告，数据也不会发送到任何服务器。</p>
+      <p class="en" lang="en">After installation it works offline. You can view and edit the daily review (每日总结 / 今日回顾). There is no account or sign-in, no advertising, and nothing is sent to a server.</p>
+    </section>
+
+    <section aria-labelledby="more">
+      <h2 id="more">提醒、趋势与偏好 <span lang="en">/ Reminders, trends and preferences</span></h2>
+      <p>可选的就寝回顾提醒是本地通知，默认 21:30，可以调整时间或关闭。另有用药提醒；通知只在本机发出。趋势提供每日分数的折线图和日历视图。</p>
+      <p class="en" lang="en">An optional bedtime review reminder is a local notification. It defaults to 21:30, and you can change the time or turn it off. Medication reminders are also available. Notifications stay on the device. Trends include a line chart and a calendar view of daily scores.</p>
+      <p>在「我的」中可切换两款皮肤：默认「朝阳暖色」，以及「米笺晨光」。App 内语言可选跟随系统、简体中文、繁體中文、English、日本語、한국어、Español、Français 或 Deutsch。需要 iOS 17 或更高版本。所有数据只保存在这台设备上，删除 App 会把这些数据一并移除。</p>
+      <p class="en" lang="en">In 我的 you can switch between two skins: 朝阳暖色 (the default) and 米笺晨光. The in-app language picker offers System, Simplified Chinese, Traditional Chinese, English, Japanese, Korean, Spanish, French or German. iOS 17 or later is required. All data stays on the device; deleting the app removes it.</p>
+    </section>
+
+    <section class="notice" aria-label="非医疗声明 / Not a medical device">
+      <p>本 App 不是医疗器械，不用于诊断。每日平衡分数和建议只供个人日常生活自查参考，不能替代专业医疗意见。</p>
+      <p class="en" lang="en">This app is not a medical device and is not for diagnosis. The daily balance score and suggestions are only a personal daily-life self-check. They do not replace professional medical advice.</p>
+    </section>
+  </main>
+  <footer class="wrap">今日生活 <span lang="en">/ Daily Balance</span> · © 2026 Xiaobao Ma</footer>
+</body>
+</html>
